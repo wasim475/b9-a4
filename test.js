@@ -1,16 +1,13 @@
-function checkName(name){
-    if(name){
-        return 'Invalid input'
-        let reverseNameWords = name.split('').reverse()
-    }
-    else if(reverseNameWords[0].toLowerCase()=='a' || reverseNameWords[0].toLowerCase()== 'y' || reverseNameWords[0].toLowerCase()== 'i' || reverseNameWords[0].toLowerCase()== 'e' || reverseNameWords[0].toLowerCase()== 'o' || reverseNameWords[0].toLowerCase()== 'u' || reverseNameWords[0].toLowerCase()== 'w' ){
-        return 'Good Name'
+
+function arrays(arr){
+    if(Array.isArray(arr)){
+        return 'valid'
     }
     else{
-        return 'Bad Name'
+        return 'Invalid'
     }
 }
 
-let result = checkName(900)
+let result = arrays(12)
 
 console.log(result)
