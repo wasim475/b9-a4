@@ -1,13 +1,12 @@
 
-function arrays(arr){
-    if(Array.isArray(arr)){
-        return 'valid'
-    }
-    else{
-        return 'Invalid'
-    }
+// let name = 'rahul';
+
+// let name2 = name.charAt(0).toUpperCase()+ name.slice(1)
+
+// console.log(name2)
+
+function password(obj){
+   console.log(obj.name<=10)
 }
 
-let result = arrays(12)
-
-console.log(result)
+password({name:12})
